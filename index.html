@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Kalkulator w JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prosty kalkulator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main col-12">
+            <div class="row header col-12">
+                <h1>Wpisz dowolne liczby</h1>
+            </div>
+            <div class="row input">
+                <input type="number" class="col-sm-8 col-lg-5 col-md-8 ml-1" id="inputOne">
+                <input type="number" class="col-sm-8 col-lg-5 col-md-8 ml-1" id="inputTwo">
+            </div>
+            <div class="row">
+                <button class="col-lg-10 col-md-8 col-sm-8 ml-2" onclick="dzialania()"> Oblicz </button>
+            </div>
+            <div class="row">
+                <div class="row wyniki col-12">
+                    <h3>Wyniki funkcji matematycznych</h3>
+                </div>
+                <div class="row col-12">
+                    <p>Dodawanie:<span id="wynikDodawania"></span></p>
+                </div>
+                <div class="row col-12">
+                    <p>Odejmowanie:<span id="wynikOdejmowania"></span></p>
+                </div>
+                <div class="row col-12">
+                    <p>Mnożenie:<span id="wynikMnozenia"></span></p>
+                </div>
+                <div class="row col-12">
+                    <p>Dzielenie:<span id="wynikDzielenia"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="javascript/javascript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: scroll;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/kwiaty.jpg");
+    max-width: 1400px;
+    height: 1500px;
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(245, 234, 241);
+    padding-right: 5px;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    background-color: rgb(221, 133, 184);
+    margin-top: 30px;
+    border: 2px solid rgb(221, 133, 184);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(191, 83, 146);
+    color: #f2e7e7;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+}
+
+h3 {
+    padding: 30px;
+}
+
+p {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.wyniki h3 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .header {
+        padding: 40px 0px 40px 20px;
+    }
+
+}
+
+@media only screen and (min-width: 991px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 587px) {
+
+    h1 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .header {
+        padding: 40px 0px 40px 40px;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .header {
+        text-align: center;
+    }
+}
