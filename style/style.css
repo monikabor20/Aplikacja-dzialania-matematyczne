@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    max-height: 900px;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     background-image: url("../img/kwiaty.jpg");
     max-width: 1400px;
     height: 1500px;
+    background-repeat: no-repeat;
 }
 
 input {
@@ -23,6 +25,7 @@ input {
     background-color: rgb(245, 234, 241);
     padding-right: 5px;
     text-align: center;
+    margin-top: 10px;
 }
 
 button {
@@ -45,13 +48,9 @@ button:hover {
     height: 600px;
 }
 
-.header {
-    padding: 30px;
-    text-align: center;
-}
-
 h3 {
-    padding: 30px;
+    padding: 40px 0px 30px 0px;
+    text-align: center;
 }
 
 p {
@@ -67,44 +66,13 @@ span {
     text-align: center;
 }
 
-@media only screen and (max-width: 991px) {
-
-    .header {
-        padding: 40px 0px 40px 20px;
-    }
-
+.clr {
+    background-color: #35a256;
+    border: none;
 }
 
-@media only screen and (min-width: 991px) {
-    body {
-        overflow: hidden;
-    }
-}
-
-@media only screen and (max-width: 587px) {
-
-    h1 {
-        font-size: 30px;
-        text-align: left;
-    }
-
-    .header {
-        padding: 40px 0px 40px 40px;
-    }
-}
-
-@media only screen and (max-width: 299px) {
-    h1 {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    h3 {
-        padding: 30px;
-        font-size: 20px;
-    }
-
-    .header {
-        text-align: center;
-    }
+.clr:hover {
+    background-color: rgb(63, 119, 80);
+    color: #f2e7e7;
+    border: 2px solid #35a256;
 }

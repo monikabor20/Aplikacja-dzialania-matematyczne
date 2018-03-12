@@ -1,14 +1,20 @@
 function dzialania() {
-    var wartoscZPierwszegoOkna = document.getElementById("inputOne").value;
-    var wartoscZDrugiegoOkna = document.getElementById("inputTwo").value;
+    const wartoscZPierwszegoOkna = document.getElementById("inputOne").value;
+    const wartoscZDrugiegoOkna = document.getElementById("inputTwo").value;
 
-    var dodawanie = +wartoscZPierwszegoOkna + +wartoscZDrugiegoOkna;
-    var odejmowanie = wartoscZPierwszegoOkna - wartoscZDrugiegoOkna;
-    var mnozenie = wartoscZPierwszegoOkna * wartoscZDrugiegoOkna;
-    var dzielenie = wartoscZPierwszegoOkna / wartoscZDrugiegoOkna;
+    const dodawanie = +wartoscZPierwszegoOkna + +wartoscZDrugiegoOkna;
+    const odejmowanie = wartoscZPierwszegoOkna - wartoscZDrugiegoOkna;
+    const mnozenie = wartoscZPierwszegoOkna * wartoscZDrugiegoOkna;
+    const dzielenie = wartoscZPierwszegoOkna / wartoscZDrugiegoOkna;
 
-    var wynikDodawania = document.getElementById("wynikDodawania").innerHTML = dodawanie;
-    var wynikOdejmowania = document.getElementById("wynikOdejmowania").innerHTML = odejmowanie;
-    var wynikMnozenia = document.getElementById("wynikMnozenia").innerHTML = mnozenie;
-    var wynikDzielenia = document.getElementById("wynikDzielenia").innerHTML = dzielenie;
+    const wynikDodawania = document.getElementById("wynikDodawania").innerHTML = dodawanie;
+    const wynikOdejmowania = document.getElementById("wynikOdejmowania").innerHTML = odejmowanie;
+    const wynikMnozenia = document.getElementById("wynikMnozenia").innerHTML = mnozenie;
+    const wynikDzielenia = document.getElementById("wynikDzielenia").innerHTML = dzielenie;
+}
+
+function clr() {
+     
+     document.getElementById("inputOne").value = null;
+    document.getElementById("inputTwo").value = null;
 }
